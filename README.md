@@ -31,6 +31,16 @@ My degree combined biotechnology with enterprise, and I am interested in how AI 
 * Structured prompt instructions
 * Publicly available scientific abstracts
 * GitHub for documentation
+* Google Sheets
+* Make.com
+
+## Automation workflow
+
+I connected Google Sheets to an AI prompt using Make.com. When a paper title and abstract are added to the tracker, the workflow produces a structured draft and writes it back into the correct row for human review.
+
+Google Sheets → Simple Text Prompt → Google Sheets
+
+![Make.com research workflow](make-workflow.png)
 
 ## Limitations
 
@@ -38,4 +48,4 @@ The workflow only analyses the information provided to it. It cannot verify expe
 
 ## Next steps
 
-I plan to test the workflow on different areas of biological research, compare its output with the original abstracts and explore how the results could be organised automatically in Google Sheets or Notion.
+I would like to split the AI output automatically across separate spreadsheet columns, add a clearer review-status process and explore sending approved summaries to Notion.
